@@ -25,7 +25,7 @@
 	<section class="mx-auto max-w-xl py-6 px-4 lg:p-6 grid gap-6 items-center justify-items-center">
 		<Select.Root type="single" name="selectedRecipe" bind:value>
 			<Select.Trigger class="w-[260px]">
-				{triggerContent}
+				<span class="truncate">{triggerContent}</span>
 			</Select.Trigger>
 			<Select.Content>
 				<Select.Group>
