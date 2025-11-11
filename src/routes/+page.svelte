@@ -12,7 +12,7 @@
 	let selected = $derived(recipes.find((r: Recipe) => r.id === value));
 	let Icon = $derived(getIcon(selected?.icon));
 	const triggerContent = $derived(
-		recipes.find((f) => f.id === value)?.title ?? "Выборать рецепт"
+		recipes.find((f) => f.id === value)?.title ?? "Выбрать рецепт"
 	);
 </script>
 
